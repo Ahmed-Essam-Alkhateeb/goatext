@@ -55,6 +55,6 @@ func main() {
 
 	myWindow.SetContent(content)
 	myWindow.Resize(fyne.NewSize(800, 600))
-	myWindow.SetFixedSize(true)
+	// myWindow.SetFixedSize(true)
 	myWindow.ShowAndRun()
 }
